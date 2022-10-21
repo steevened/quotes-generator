@@ -19,14 +19,25 @@ function App() {
   const colors = [
     '#845AEC',
     '#5AC3EC',
-    '#A3EC5A',
-    '#EC5AB6',
     '#EC5A5C',
-    '#C2EC5A',
     '#5A68EC',
-    '#EC5AC0',
-    '#5A6DEC',
     '#5AB9EC',
+    '#ECAB5A',
+    '#ECE95A',
+    '#5AECEC',
+    '#B75AEC',
+    '#EC5ACA',
+
+    '#933A4D',
+    '#933A6C',
+    '#923A93',
+    '#633A93',
+    '#4B3A93',
+    '#3A5593',
+    '#3A936E',
+    '#3E933A',
+    '#938E3A',
+    '#936C3A',
   ]
 
   const randomColor = Math.floor(Math.random() * colors.length)
