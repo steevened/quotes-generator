@@ -34,7 +34,7 @@ body {
 }
 
 .app {
-  min-width: 400px;
+  /* min-width: 400px; */
   width: 60%;
   max-width: 600px;
   padding: 3rem 5rem;
@@ -46,7 +46,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   box-shadow: 0px 0px 100px -16px rgba(255, 255, 255, 0.5);
 }
 
@@ -78,4 +78,31 @@ body {
 .randomBtn:active {
   transform: translateY(-0.2rem);
   box-shadow: 0px 7px 10px -4px #000000;
+}
+
+@media (max-width: 480px) {
+  .app {
+    width: 90%;
+    height: 100%;
+    padding-top: 8rem;
+    gap: 2rem;
+  }
+  .app h1 {
+    font-size: 2.5rem;
+  }
+  .app p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 728px) {
+  .app {
+    height: 70%;
+  }
+}
+
+@media (min-width: 480px) {
+  .app {
+    min-width: 400px;
+  }
 }
