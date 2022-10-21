@@ -72,9 +72,10 @@ body {
 
 .randomBtn:hover {
   transform: translateY(-0.4rem);
-  box-shadow: 0px 10px 25px -8px #000000;
+  box-shadow: 0px 10px 20px -6px #000000;
 }
 
 .randomBtn:active {
   transform: translateY(-0.2rem);
+  box-shadow: 0px 7px 10px -4px #000000;
 }
