@@ -7,11 +7,11 @@ import QuoteBox from './components/QuoteBox'
 function App() {
   const outsideRandom = Math.floor(Math.random() * quotes.length)
 
-  const [quote, isQuote] = useState(outsideRandom)
+  const [quote, setQuote] = useState(outsideRandom)
 
   const changeQuote = () => {
     const random = Math.floor(Math.random() * quotes.length)
-    isQuote(random)
+    setQuote(random)
   }
 
   //color
@@ -27,7 +27,6 @@ function App() {
     '#5AECEC',
     '#B75AEC',
     '#EC5ACA',
-
     '#933A4D',
     '#933A6C',
     '#923A93',
