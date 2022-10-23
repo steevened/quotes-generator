@@ -49,6 +49,7 @@ body {
   box-shadow: 0px 0px 40px -26px rgba(0, 0, 0, 0.8);
   transition: all 0.4s;
   animation: moveInBottom 1s ease-in-out;
+  overflow: hidden;
 }
 
 .app:hover {
